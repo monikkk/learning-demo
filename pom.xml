@@ -31,7 +31,17 @@
         
         
     </dependencies>
-    
+    <profiles>
+<profile>
+<id>sonar</id>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://192.168.2.174:9000
+</sonar.host.url>
+</properties>
+</profile>
+</profiles>
 
     <properties>
         <java.version>1.8</java.version>
